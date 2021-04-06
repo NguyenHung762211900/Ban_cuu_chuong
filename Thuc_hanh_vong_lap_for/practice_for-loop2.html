@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(prompt("Nhập vào một số lớn hơn 0"));
+        var total = 0;
+        // Tính tổng các phần tử từ 1 đến số vừa nhập vào
+        /*  - num = 1
+                i =0; i < 1;
+                total =  1 + 0
+                i = 1, kết thúc vòng lặp do i không thỏa mãn < 1;
+            
+            - num = 2
+                i = 0; i < 2;
+                total = 1 + 0
+                i = 1; i < 2;
+                total = 1 + 1;
+                i = 2, kết thúc vòng lặp.
+            
+            - num = 3
+                i = 0; i < 3;
+                total = 1 + 0
+                i = 1; i < 3;
+                total = 1 + 1;
+                i = 2; i < 3;
+                total = 1 + 2;
+                i = 3, kết thúc vòng lặp.
+            - num = ...
+        */ 
+        for (i = 1; i <= num; i++){
+            total = total + i;
+            document.write (total + "<br>");
+        }
+        
+    </script>
+</body>
+</html>
